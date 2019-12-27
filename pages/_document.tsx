@@ -34,7 +34,10 @@ export default class MyDocument extends Document {
                     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.19.0/antd.min.css" />
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
-                    <link rel='icon' href='/static/image/sports_icon.png' />
+                    <link rel="stylesheet" href="/static/styles/fonts.css" />
+                    <link rel="stylesheet" href="/static/styles/global.css" />
+
+                    <link rel='icon' href='/static/images/ico.png' />
                 </Head>
                 <body>
                     <Main />
